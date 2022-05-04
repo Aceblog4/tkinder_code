@@ -2,7 +2,6 @@ from tkinter import Tk, Label, Button, Entry, StringVar, BooleanVar, Checkbutton
 import threading
 from functools import partial
 
-
 def print_hi():
     form = Tk()
     form.title("Formulaire")
