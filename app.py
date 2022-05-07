@@ -25,7 +25,7 @@ class App(tk.Tk):
 
         # create a view and place it on the root window
         view = AppView(self)
-        view.grid(row=0, column=0, padx=10, pady=10)
+        view.grid(row=0, column=0)
 
         # create a controller
         controller = AppController(model, view)
