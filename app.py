@@ -11,6 +11,8 @@ class App(tk.Tk):
 
         self.title("Cisco AI")
 
+        self.config(background="#4c283c")
+
         w = self.winfo_reqwidth()
         h = self.winfo_reqheight()
         ws = self.winfo_screenwidth()
@@ -18,7 +20,7 @@ class App(tk.Tk):
         x = (ws / 2) - (w / 2)
         y = (hs / 2) - (h / 2)
 
-        self.geometry('500x500+%d+%d' % (x, y))
+        self.geometry('500x100+%d+%d' % (x, y))
 
         # create a model
         model = AppModel()
